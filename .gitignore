@@ -1,0 +1,37 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Flask instance folder (if used)
+instance/
+
+# OS generated files
+.DS_Store
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Selenium / ChromeDriver downloads (if you store locally)
+chromedriver
+geckodriver
+
+# Build / deployment folders
+/tmp/deploy/
+
+# Jenkins-specific files
+*.pid
+nohup.out
